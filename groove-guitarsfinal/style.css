@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+body {
+    font-family: "Sedan", serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #343A40;
+}
+
+h1, h2, h3 {
+    font-family: "Jacquard 24", sans-serif;
+    text-align: center;
+    color: #007BFF;
+}
+
+a:link, a:visited {
+    color: #6F42C1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFC107;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#home-hero, #home12-hero {
+	 background-image: url(images/bannerG.jpg);
+	 height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home12-hero h1 {
+    text-align: center;
+    color: #5DADE2;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#img1, #img2 {
+    float: left;
+    max-width: 60%;
+    margin-left: 30px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #5DADE2;
+}
+
+th {
+    background-color: #93278E;
+    color: white;
+    padding: 10px;
+    border-bottom: 5px solid #000000;
+}
+
+th, td {
+    border: 1px solid #007BFF;
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    float: left;
+    width: 8em;
+    padding-right: 1em;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    border: 1px solid #17A2B8;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #28A745;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FF00FF;
+}
+
+#formfit {
+    background-color: #F1948A;
+    height: 320px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#submit {
+    display: block;
+    background-color: #82E0AA;
+}
+
+.logo {
+    max-width: 275px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center logo horizontally */
+    background-color: black;
+}
+
+#logohead {
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    font-size: 1.5em;
+    background-color: #00008B;
+    border-top: 2px solid white; /* Fix border style */
+    border-bottom: 2px solid black; /* Fix border style */
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    background-color: #343A40;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    text-align: center;
+    margin-right: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+/* CSS without a media query--applies to all sizes unless overridden */
+h1 {
+    font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
